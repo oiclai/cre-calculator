@@ -20,7 +20,7 @@ def calculo (media,carga):
 # programa principal 
 for i in range (1,qtdMaterias+1):
     media, carga=map(float, input(f'> Digite a média geral seguida pela carga horaria da {i}ª matéria: ').split())
-calculoCRE=calculo(media,carga) 
+    calculoCRE=calculo(media,carga) 
 print('-------------------------------------------------------------------------------')
-print(f'CRE d/{nome}: {calculoCRE:.1f} !')
+print(f'CRE d/{nome}: {calculoCRE:.2f} !')
 print('-------------------------------------------------------------------------------')
