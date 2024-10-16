@@ -59,7 +59,7 @@ while True:
                 FiveSecondsPause()
                 print('-------------------------------------------------------------------------------')
         case 4: # -> int
-                option_fourth_semester(user_cre, user_nome)
+                option_fourth_semester()
                 print('-------------------------------------------------------------------------------')
                 user_cre = (option_fourth_semester(user_cre))
                 print(f'> CRE d/{user_nome}: {user_cre:.2f} !')

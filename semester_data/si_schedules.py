@@ -4,9 +4,10 @@ FUNÇÕES A SEREM IMPORTADAS PARA CRECALCULATOR.PY
 
 # NOVAMENTE COM ERRO NO CODIGO - CALCULO
 # ---------------------------------------------------- 1º PERÍODO
-def option_first_semester(user_cre, user_nome): 
+def option_first_semester(user_nome): 
     totalSum=0
     totalWorkload=0
+    user_cre=0
     schedule_1semester={
         'Calculo I': int(83),
         'APE' : int(83),
@@ -29,9 +30,10 @@ def option_first_semester(user_cre, user_nome):
 
 
 # ---------------------------------------------------- 2º PERÍODO
-def option_second_semester(user_cre, user_nome):
+def option_second_semester(user_nome):
     totalSum=0
     totalWorkload=0
+    user_cre=0
     schedule_2semester={
         'Sist. Operacionais': int(83),
         'Banco de Dados I' : int(67),
@@ -53,9 +55,10 @@ def option_second_semester(user_cre, user_nome):
     user_cre=(totalSum/totalWorkload)
     return user_cre
 # ---------------------------------------------------- 3º PERÍODO
-def option_third_semester(user_cre, user_nome):
+def option_third_semester(user_nome):
     totalSum=0
     totalWorkload=0
+    user_cre=0
     schedule_3semester={
         'Programação Orientada a Objetos': int(100),
         'Banco de Dados II' : int(83),
@@ -76,7 +79,7 @@ def option_third_semester(user_cre, user_nome):
     user_cre=(totalSum/totalWorkload)
     return user_cre
 # ---------------------------------------------------- 4º PERÍODO
-def option_fourth_semester(user_cre, user_nome):
+def option_fourth_semester(user_nome):
     totalSum=0
     totalWorkload=0
     schedule_4semester={
@@ -100,9 +103,10 @@ def option_fourth_semester(user_cre, user_nome):
     user_cre=(totalSum/totalWorkload)
     return user_cre
 # ---------------------------------------------------- 5º PERÍODO
-def option_fifth_semester(user_cre, user_nome):
+def option_fifth_semester(user_nome):
     totalSum=0
     totalWorkload=0
+    user_cre=0
     schedule_5semester={
         'Programação para Web II': int(100),
         'Programacao de Dispositivos Móveis' : int(67),
@@ -123,7 +127,8 @@ def option_fifth_semester(user_cre, user_nome):
     user_cre=(totalSum/totalWorkload)
     return user_cre
 # ---------------------------------------------------- 6º PERÍODO
-def option_sixth_semester(user_cre, user_nome):
+def option_sixth_semester(user_nome):
+    user_cre=0
     totalSum=0
     totalWorkload=0
     schedule_6semester={
