@@ -1,9 +1,10 @@
 '''
 FUNÇÕES A SEREM IMPORTADAS PARA CRECALCULATOR.PY
 '''
-from main import user_nome, user_cre
+
+# NOVAMENTE COM ERRO NO CODIGO - CALCULO
 # ---------------------------------------------------- 1º PERÍODO
-def option_first_semester(): 
+def option_first_semester(user_cre, user_nome): 
     totalSum=0
     totalWorkload=0
     schedule_1semester={
@@ -28,8 +29,7 @@ def option_first_semester():
 
 
 # ---------------------------------------------------- 2º PERÍODO
-def option_second_semester():
-    global user_cre
+def option_second_semester(user_cre, user_nome):
     totalSum=0
     totalWorkload=0
     schedule_2semester={
@@ -53,8 +53,7 @@ def option_second_semester():
     user_cre=(totalSum/totalWorkload)
     return user_cre
 # ---------------------------------------------------- 3º PERÍODO
-def option_third_semester():
-    global user_cre
+def option_third_semester(user_cre, user_nome):
     totalSum=0
     totalWorkload=0
     schedule_3semester={
@@ -77,8 +76,7 @@ def option_third_semester():
     user_cre=(totalSum/totalWorkload)
     return user_cre
 # ---------------------------------------------------- 4º PERÍODO
-def option_fourth_semester():
-    global user_cre
+def option_fourth_semester(user_cre, user_nome):
     totalSum=0
     totalWorkload=0
     schedule_4semester={
@@ -102,8 +100,7 @@ def option_fourth_semester():
     user_cre=(totalSum/totalWorkload)
     return user_cre
 # ---------------------------------------------------- 5º PERÍODO
-def option_fifth_semester():
-    global user_cre
+def option_fifth_semester(user_cre, user_nome):
     totalSum=0
     totalWorkload=0
     schedule_5semester={
@@ -126,8 +123,7 @@ def option_fifth_semester():
     user_cre=(totalSum/totalWorkload)
     return user_cre
 # ---------------------------------------------------- 6º PERÍODO
-def option_sixth_semester():
-    global user_cre
+def option_sixth_semester(user_cre, user_nome):
     totalSum=0
     totalWorkload=0
     schedule_6semester={

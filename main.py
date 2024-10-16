@@ -39,35 +39,34 @@ while True:
     match user_semester:
             
         case 1: # -> int
-                option_first_semester()
+                option_first_semester(user_cre, user_nome)
                 print('-------------------------------------------------------------------------------')
-                user_cre = (option_first_semester(user_cre))
                 print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
                 FiveSecondsPause()
                 print('-------------------------------------------------------------------------------')
         case 2: # -> int
-                option_second_semester()
+                option_second_semester(user_cre, user_nome)
                 print('-------------------------------------------------------------------------------')
                 user_cre = (option_second_semester(user_cre))
                 print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
                 FiveSecondsPause()
                 print('-------------------------------------------------------------------------------')
         case 3: # -> int
-                option_third_semester()
+                option_third_semester(user_cre, user_nome)
                 print('-------------------------------------------------------------------------------')
                 user_cre = (option_third_semester(user_cre))
                 print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
                 FiveSecondsPause()
                 print('-------------------------------------------------------------------------------')
         case 4: # -> int
-                option_fourth_semester()
+                option_fourth_semester(user_cre, user_nome)
                 print('-------------------------------------------------------------------------------')
                 user_cre = (option_fourth_semester(user_cre))
                 print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
                 FiveSecondsPause()
                 print('-------------------------------------------------------------------------------')
         case 5: # -> int
-                option_fifth_semester()
+                option_fifth_semester(user_cre, user_nome)
                 print('-------------------------------------------------------------------------------')
                 user_cre = (option_fifth_semester(user_cre))
                 print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
@@ -75,7 +74,7 @@ while True:
 
                 print('-------------------------------------------------------------------------------')
         case 6: # -> int
-                option_sixth_semester()
+                option_sixth_semester(user_cre, user_nome)
                 print('-------------------------------------------------------------------------------')
                 user_cre = (option_sixth_semester(user_cre))
                 print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
