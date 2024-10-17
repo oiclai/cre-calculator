@@ -1,6 +1,6 @@
 import os 
 import time
-# funcao para limpar terminal que arthur mostrou
+# funcao para limpar terminal 
 def clear():
     os.system('clear||cls')
 '''

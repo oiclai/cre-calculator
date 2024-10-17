@@ -26,8 +26,7 @@ def option_first_semester(user_nome):
         totalWorkload+=(schedule_1semester[subject])
         totalSum+=(media*schedule_1semester[subject])
     user_cre=(totalSum/totalWorkload)
-    return user_cre
-
+    print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
 
 # ---------------------------------------------------- 2º PERÍODO
 def option_second_semester(user_nome):
@@ -53,7 +52,7 @@ def option_second_semester(user_nome):
         totalWorkload+=(schedule_2semester[subject])
         totalSum+=(media*schedule_2semester[subject])
     user_cre=(totalSum/totalWorkload)
-    return user_cre
+    print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
 # ---------------------------------------------------- 3º PERÍODO
 def option_third_semester(user_nome):
     totalSum=0
@@ -77,7 +76,7 @@ def option_third_semester(user_nome):
         totalWorkload+=(schedule_3semester[subject])
         totalSum+=(media*schedule_3semester[subject])
     user_cre=(totalSum/totalWorkload)
-    return user_cre
+    print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
 # ---------------------------------------------------- 4º PERÍODO
 def option_fourth_semester(user_nome):
     totalSum=0
@@ -101,7 +100,7 @@ def option_fourth_semester(user_nome):
         totalWorkload+=(schedule_4semester[subject])
         totalSum+=(media*schedule_4semester[subject])
     user_cre=(totalSum/totalWorkload)
-    return user_cre
+    print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
 # ---------------------------------------------------- 5º PERÍODO
 def option_fifth_semester(user_nome):
     totalSum=0
@@ -125,7 +124,7 @@ def option_fifth_semester(user_nome):
         totalWorkload+=(schedule_5semester[subject])
         totalSum+=(media*schedule_5semester[subject])
     user_cre=(totalSum/totalWorkload)
-    return user_cre
+    print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
 # ---------------------------------------------------- 6º PERÍODO
 def option_sixth_semester(user_nome):
     user_cre=0
@@ -148,4 +147,4 @@ def option_sixth_semester(user_nome):
         totalWorkload+=(schedule_6semester[subject])
         totalSum+=(media*schedule_6semester[subject])
     user_cre=(totalSum/totalWorkload)
-    return user_cre
+    print(f'> CRE d/{user_nome}: {user_cre:.2f} !')
