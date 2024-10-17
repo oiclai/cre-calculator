@@ -1,6 +1,4 @@
-## Status: Em Processamento 👷‍♂️ -> contém erros!
-
-> Erros no cálculo e nas variáveis vinculadas às funções
+## Status: Em Processamento 👷‍♂️ 
 
 ### > Descrição
 Repositório que contém um programa calculador de CRE (coeficiente de rendimento), por terminal, com opções acerca do **Curso Superior Tecnólogo Sistemas para Internet e sua matriz curricular**
